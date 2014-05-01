@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Function approximation</title>
+	</head>
+	<body>
+		<canvas id="error" style="border: 1px solid black" width="600" height="600"></canvas>
+		<canvas id="graph" style="border: 1px solid black" width="600" height="600"></canvas><br />
+		
+		Function approximation using 150 inputs, two hidden layers of 450 neurons each<br />
+		<b>Epoch:</b> <span id="epoch"></span><br />
+		<b>MSE:</b> <span id="mse"></span><br />
+		<button>parabola</button>
+		<button>sine</button>
+		<button>abs</button>
+		<button>gaussian</button>
+		<button>step</button>
+		<button>crazy</button>
+		
+		<!--<script type="application/dart" src="main-fn.dart"></script>-->
+		<script type="text/javascript" src="main-fn.js"></script>
+	</body>
+</html>

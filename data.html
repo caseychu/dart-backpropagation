@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>MATLAB Data</title>
+		<style type="text/css">
+			.selected {
+				font-weight: bold;
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="error" style="border: 1px solid black" width="600" height="600"></canvas><br />
+		Backpropagation with two hidden layers. The number of neurons is three times the input size.<br />
+		<b>Time:</b> <span id="time"></span><br />
+		<b>Errors:</b> <span id="errors"></span>/<span id="total"></span><br />
+		<b>Epoch:</b> <span id="epoch"></span><br />
+		<b>MSE:</b> <span id="mse"></span><br />
+		
+		<script type="application/dart" src="main-data.dart"></script>
+	</body>
+</html>
